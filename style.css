@@ -1,0 +1,386 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    
+}
+body{
+    background-color:gainsboro;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 900px;
+    background-color: white;
+    margin: 0px auto;
+      
+}
+
+.menu1-COVID{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 60px 60px;
+
+}
+.menu2-COVID{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 70px;
+}
+
+.menu2-COVID div{
+    flex-basis: 50%;
+}
+
+header{
+    background-image: url(images/7685299header.jpg);
+    background-size: cover;
+    height: auto;
+    width: 100%;
+
+    
+
+    
+   
+}
+header nav a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    font-size: 14px;
+   
+}
+header nav a:first-child{
+    color: rgb(87, 168, 87);
+}
+
+.imagecorona img{
+    width: 80%;
+    height: auto;
+    margin-left: 42px;
+   
+    
+    
+}
+#leftheader{
+    margin-top: 40px;
+    width: 44%;
+}
+#leftheader p:first-child{
+    color: rgba(25, 209, 154, 0.993);
+    font-size: 14px;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+#leftheader h1{
+    color: white;
+    line-height: 1.7em;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+#leftheader p:nth-last-child(2){
+    line-height: 2.4em;
+    color: white;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+#leftheader button, .sec3-1 button{
+    color: black;
+    border-radius: 20px;
+    padding: 12px 15px;
+    opacity: 1;
+    border: none;
+    background-color: rgb(140, 240, 162);
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    
+}
+.sec3-1 button{
+    margin-bottom: -70px;
+  
+}
+.Sec1{
+text-align: center;
+padding:70px 100px 50px ;
+
+}
+.Sec1 h2{
+    margin-bottom: 20px;
+}
+.Sec1 p{
+    line-height: 1.8em;
+    color: grey;
+    font-size: 11px;
+}
+.Sec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.Sec2 div{
+    flex-basis: 25%;
+}
+.Sec2-1 h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.Sec2-1 p{
+    font-size: 10px;
+    line-height: 2em;
+    color: grey;
+}
+
+.Sec2 img{
+    width: 60px;
+}
+.sec3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 90px 40px;
+}
+.sec3 div{
+    flex-basis: 46.5%;
+
+}
+.sec3-2 img{
+    width: 100%;
+
+}
+.sec3-1{
+    margin-top: 50px;
+}
+.sec3-1 h2{
+ margin-bottom: 20px;
+
+}
+.sec3-1 p{
+line-height: 2em;
+padding: 0px 0px 20px;
+font-size: 13px;
+  }
+
+  .sec4{
+    text-align: center;
+    padding:0px 40px 20px ;
+    
+    }
+  .sec4 h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    color: white;
+}
+.sec4 p{
+    font-size: 10px;
+    line-height: 2em;
+    color: white;
+
+}
+.ensemble-image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 0px 10px 20px ;
+
+
+}
+
+.ensemble-image div{
+    border-radius: 8px ;
+    border: none;
+    background-color: white;
+    padding: 10px 10px 20px;
+    justify-content: space-around;
+    flex-basis: 31%;
+    line-height: 1.2em;
+    
+}
+.ensemble-image img{
+    width: 35%;
+    
+}
+
+.section4{
+    background-image: url(images/7685299header.jpg);
+    background-size: cover;
+    margin: 60px ;
+    
+
+}
+.ensemble-image div h3{
+    margin: 10px;
+    font-size: 14px;
+}
+
+.ensemble-image div p{
+    font-size: 12px;
+    color: rgb(65, 62, 62);    
+}
+
+
+.total-statistics{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+width: 100%; 
+padding: 20px 100px 20px;
+margin: -60px; 
+
+}
+.total-stat{
+    background-color: rgb(242, 247, 247);
+  margin: 60px;
+}
+.total-statistics p:first-child{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.total-statistics p:last-child{
+    color: gray;
+}
+.ensemble-preventions{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 0px 50px;
+}
+.ensemble-preventions div{
+    flex-basis: 20%;
+}
+.pre1 p{
+    margin-top: 20px;
+    font-size: 11px;
+    line-height: 1.7em;
+}
+.pre1 h3{
+    margin-top: 20px;
+}
+
+ .lesinputs{
+    margin: 50px 90px 20px;
+    background-color: rgba(206, 244, 245, 0.377); 
+}
+.lesinputs h2{
+    text-align: center;
+    padding: 30px;
+}
+.lesinputs input{
+    width: 420px;
+    height: 30px;
+    
+}
+.lesinputs span{
+    color: red;
+    font-weight: bold;
+}
+.lesinputs tr td{
+    padding: 4px;
+    
+}
+input[type=file]{
+    color: black;
+    
+    
+    
+}
+
+
+.lesinputs label{
+    margin: 80px;
+    
+}
+form button{
+    margin-bottom: 60px;
+    
+    color: black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(101, 231, 129);
+    font-size: 17px;
+    
+
+   
+}
+
+
+
+.pied-de-page{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    
+
+}
+.pied-de-page div{
+    flex-basis: 30%;
+    padding: 10px;
+
+}
+.Get-In-Touch a{
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    padding: 14px ;
+    border: 1px solid red;
+    text-align: center;
+    display: inline;
+    align-items: center;
+
+}
+.Get-In-Touch div{
+    Padding: 7px;
+
+}
+
+.Get-In-Touch div img{
+   margin-top: -15px;
+}
+footer{
+    background-color: rgb(12, 30, 85);
+    width: 100%;
+    padding: 40px 60px 10px;
+
+}
+
+.navigation-page nav a{
+text-decoration: none;
+color: white;
+display: flex;
+font-size: 11px;
+line-height: 2em;
+}
+.pied-de-page div h5{
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: rgb(87, 168, 87);
+
+}
+.pied-de-page p{
+    color: white;
+    font-size: 10px;
+    line-height: 1.9em;
+}
+
+.Pied{
+    text-align: center;
+    color: rgb(87, 168, 87);
+    font-size: 11px;
+}
+.Pied a{
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    
+}
+
+
+  
+
+
